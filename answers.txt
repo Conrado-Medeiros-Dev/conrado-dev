@@ -1,0 +1,705 @@
+  104  cd ũnix_tests
+  105  ls
+  106  cd ~unix_tests
+  107  cd unix_tests
+  108  touch trybe.txt
+  109  ls
+  110  ls -a
+  111  cp trybe.txt trybe_backup.txt
+  112  ls
+  113  mv trybe.txt trybe2.txt
+  114  ls
+  115  mkdir backup
+  116  ls
+  117  mv trybe_backup.txt backup
+  118  ls
+  119  ls backups
+  120  ls backup
+  121  mkdir backup2
+  122  ls
+  123  mv backup/trybe_backup.txt backup2
+  124  ls backup2
+  125  rm backup
+  126  rmdir backup
+  127  ls
+  128  mv backup2 backup
+  129  ls
+  130  cd backup
+  131  pwd
+  132  rm trybe_backup.txt
+  133  rmdir backup
+  134  cd ..
+  135  rm backup
+  136  rmdir backup
+  137  ls
+  138  sudo clear
+  139  ct > skills.txt
+  140  cat > skills.txt
+  141  cat skills.txt
+  142  cat > skills.txt
+  143  cat skills.txt
+  144  head -5
+  145  head -5 skills.txt
+  146  tail -4 skills.txt
+  147  vi skilss.txt
+  148  vi skills.txt
+  149  ls
+  150  cd unix_tests
+  151  ls
+  152  head -9 skills.txt
+  153  rm skills.txt
+  154  ls
+  155  cat skills.txt
+  156  pwd
+  157  ls
+  158  cd unix_tests
+  159  cat skills.txt
+  160  cat > skills.txt
+  161  ls
+  162  vi skills.txt 
+  163  ls
+  164  cat skills.txt 
+  165  vi skills.txt 
+  166  clear
+  167  sudo clear
+  168  cd ..
+  169  ls
+  170  cd unixstuff
+  171  ls
+  172  cat science.txt
+  173  less science.txt
+  174  ls
+  175  cd unixstuff
+  176  ls
+  177  less science.txt
+  178  clear
+  179  head science.txt
+  180  head -5 science.txt
+  181  tail science.txt
+  182  tail -15 science.txt
+  183  clear
+  184  less science.txt
+  185  clear
+  186  grep science.txt
+  187  grep science science.txt
+  188  ls
+  189  cd unixstuff
+  190  grep science science.txt
+  191  grep Science science.txt
+  192  clerar
+  193  clear
+  194  grep -i science science.txt
+  195  grep -i 'spinning top' science.txt
+  196  grep -ivc science science.txt
+  197  wc -w science.txt
+  198  wc -l science.txt
+  199  cat
+  200  clear
+  201  cat
+  202  car > list1
+  203  cat > list1
+  204  cat list1
+  205  cat list2
+  206  cat > list2
+  207  cat list2
+  208  cat >> list1
+  209  cat list1
+  210  cat list1 list2 > biglist
+  211  cat biglist
+  212  sort
+  213  sort < biglist
+  214  sort < biglist >slist
+  215  cat slist
+  216  who
+  217  who >names.txt
+  218  who
+  219  who > names.txt
+  220  who
+  221  who < names.txt
+  222  who | sort
+  223  who | wc -1
+  224  who | wc -l
+  225  who > list1 > list2
+  226  who
+  227  cat list1 list2 | grep p | sort
+  228  ls list
+  229  çs *list
+  230  ls *list
+  231  ls ?list
+  232  celar
+  233  clear
+  234  man wc
+  235  whatis wc
+  236  apropos keyword
+  237  apropos copy
+  238  clear
+  239  ls -l (i for long listing)
+  240  ls -l
+  241  ls -lg
+  242  chmod go-rwx biglist
+  243  ls -l
+  244  chmod a+rw biglist
+  245  ls -l
+  246  chmod a+rw backups
+  247  chmod a+rwx science.txt
+  248  ls -l
+  249  ps
+  250  ps &
+  251  sleep
+  252  sleep 10
+  253  sleep 10 &
+  254  sleep 1000
+  255  bg
+  256  ls
+  257  cd unixstuff
+  258  ls -l
+  259  chmod go-rwx biglist
+  260  ls -l
+  261  sleep 10
+  262  sleep 10 &
+  263  sleep 1000
+  264  bg
+  265  % jobs
+  266  bg
+  267  fg %jobnumber
+  268  bg
+  269  % jobs
+  270  fg %jobnumber
+  271  bg
+  272  cd ..
+  273  close
+  274  nuno close
+  275  clear
+  276  ls
+  277  cd unixstuff
+  278  ls
+  279  cat science.txt
+  280  clear
+  281  ls
+  282  sleep 10
+  283  sleep 1000
+  284  bg
+  285  % jobs
+  286  bg
+  287  clear
+  288  jobs
+  289  sleep 1000 &
+  290  bg
+  291  jobs
+  292  % jobs
+  293  jobs
+  294  clear
+  295  fg %jobnumber
+  296  fg %job1
+  297  fg %1
+  298  fg
+  299  % sleep 100
+  300  jobs
+  301  % sleep 1000
+  302  jobs
+  303  sleep 1000
+  304  jobs
+  305  % sleep 1000
+  306  jobs
+  307  sleep 1000
+  308  bg
+  309  jobs
+  310  sleep 1000
+  311  bg
+  312  jobs
+  313  kill %jobnumber
+  314  %kill %jobnumber
+  315  %kill %job2
+  316  jobs
+  317  % kill %jobnumber
+  318  jobs
+  319  % kill %jobnumber
+  320  jobs
+  321  sleep 100 &
+  322  jobs
+  323  sleep 1000 &
+  324  jobs
+  325  % kill %3
+  326  jobs
+  327  % kill %2
+  328  ps
+  329  kill 2834
+  330  jobs
+  331  sleep 1000
+  332  bg
+  333  jobs
+  334  ps
+  335  kill 2852
+  336  jobs
+  337  ps
+  338  jobs
+  339  clear
+  340  % quota -v
+  341  cd ..
+  342  % quota
+  343  % quota -v
+  344  sudo apt-get install quota
+  345  clear
+  346  % quota -v
+  347  ls
+  348  cd unixstuff
+  349  % quota -v
+  350  fg
+  351  clear
+  352  % quota -v
+  353  % df
+  354  sleep 1000 &
+  355  jobs
+  356  % quota -v
+  357  jobs
+  358  sleep 1000 &
+  359  % df
+  360  bg
+  361  jobs
+  362  % du -s *
+  363  clear
+  364  top
+  365  clear
+  366  ls
+  367  % du -s *
+  368  clear
+  369  % du -s
+  370  clear
+  371  ls -l science.txt
+  372  ls -l
+  373  % gzip science.txt
+  374  clear
+  375  ls -l science.txt
+  376  gzip science.txt
+  377  ls -l
+  378  gunzip science.txt.gz
+  379  ls -l
+  380  clear
+  381  % df .
+  382  clear
+  383  % quota -v
+  384  clear
+  385  gzip science.txt
+  386  ls -l
+  387  % zcat science.txt.gz
+  388  clear
+  389  ls -l
+  390  % zcat science.txt.gz
+  391  clear
+  392  ls -l
+  393  zcar science.txt,gz | less
+  394  jobs
+  395  zcat science.txt.gz | less
+  396  zcat science.txt.gz
+  397  clear
+  398  cd ..
+  399  % file *
+  400  file *
+  401  quota -v
+  402  cd unixstuff
+  403  quota -v
+  404  ls -l
+  405  quota -v
+  406  ls -l
+  407  diff list1 list2
+  408  list
+  409  list1
+  410  diff file1 file2
+  411  ls
+  412  diff science.txt.gz slist
+  413  diff slist list2
+  414  clear
+  415  find . -name "*.txt" -print
+  416  find . -size +1M -ls
+  417  find . -size -1M -ls
+  418  history
+  419  find . -size +1M -ls
+  420  mkdir download
+  421  ls
+  422  cd download
+  423  ls -l
+  424  gunzip units-1.74.tar.gz
+  425  ls -l
+  426  tar -xvf units-1.74.tar
+  427  cd units-1.74
+  428  ls -l
+  429  cat README
+  430  cat INSTALL
+  431  clear
+  432  mkdir ~/units174
+  433  pwd
+  434  ./configure --prefix=$HOME/units174
+  435  echo $HOME
+  436  ls
+  437  make
+  438  sudo apt install make
+  439  close
+  440  clear
+  441  make
+  442  make check
+  443  ls
+  444  ls -l
+  445  ./configure --prefix=$HOME/units174
+  446  ls
+  447  less Makefile.in
+  448  less Makefile.dos
+  449  % make
+  450  % make check
+  451  clear
+  452  echo $HOME
+  453  %./configure --prefix=HOME/units174
+  454  cd /
+  455  find -name make
+  456  # echo $PATH
+  457  apt-get install build-essential
+  458  ls -l
+  459  ls
+  460  cd unixstuff
+  461  cd unixstuf
+  462  clear
+  463  ls
+  464  cd home
+  465  ls
+  466  cd conrado
+  467  ls
+  468  cd unixstuff
+  469  ls
+  470  cd download
+  471  ls
+  472  cd units-1.74
+  473  ls
+  474  cd ~/units174
+  475  ls 
+  476  ls
+  477  ls -l
+  478  ./units
+  479  pwd
+  480  cd ..
+  481  l
+  482  cd unixstuff
+  483  ls
+  484  cd download
+  485  ls
+  486  cd units-1.74
+  487  ./configure --prefix=$HOME/conrado/units174
+  488  make
+  489  sudo apt-get install gcc
+  490  clear
+  491  pwd
+  492  ./configure --prefix=$HOME/conrado/unixstuff/download/units-174
+  493  make
+  494  make check
+  495  make install
+  496  cd ~/units174
+  497  ls
+  498  ls -l
+  499  cd ..
+  500  ls
+  501  cd unixstuff
+  502  ls
+  503  cd download
+  504  ls
+  505  cd units-1.74
+  506  ls
+  507  cd ~/units-1.74
+  508  mkdir ~/units174
+  509  cd units174
+  510  cd ..
+  511  ls
+  512  mv units174 units-1.74/
+  513  cd units-1.74
+  514  ls
+  515  ls -l
+  516  cc ..
+  517  cd ..
+  518  ls
+  519  mv units-1.74 unixstuff/
+  520  ls
+  521  cd uixstuff
+  522  cd unixstuff
+  523  cd download
+  524  ls
+  525  cd units-1.74
+  526  ls
+  527  find %name units174
+  528  cd units174
+  529  ls
+  530  mkdir units174
+  531  ls
+  532  pwd
+  533  ./configure --prefix=$HOME/conrado/unixstuff/download/units-1.74/units174
+  534  ls
+  535  make
+  536  cd units174
+  537  ls
+  538  make
+  539  cd ..
+  540  make
+  541  make check
+  542  cd ..
+  543  ls
+  544  rm units-1.74
+  545  rmdir units-1.74
+  546  rm rf units-1.74
+  547  rmdir -rf units-1.74
+  548  rm -rf units-1.74
+  549  ls
+  550  tar -xvf units-1.74.tar
+  551  ls
+  552  cd units-1.74
+  553  mkdir units174
+  554  ls
+  555  pwd
+  556  ./configure --prefix=HOME/conrado/unixstuff/download/units-1.74/units174
+  557  la
+  558  make
+  559  make check
+  560  make install
+  561  cd ~/units174
+  562  ls
+  563  cd units174
+  564  ls
+  565  cd ~/units174
+  566  ls
+  567  cd ..
+  568  ls
+  569  mv Makefile units174/
+  570  ls
+  571  cd ~/units174
+  572  cd units174
+  573  ls
+  574  mv Makefile units-1.74/
+  575  clear
+  576  cd ..
+  577  ls
+  578  cd unix_tests
+  579  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  580  sudo apt install curl
+  581  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  582  cat countries.txt
+  583  less countries.txt
+  584  grep Zambia countries.txt
+  585  less countries.txt
+  586  grep Brazil countries.txt
+  587  grep -i brasil countries.txt
+  588  ls
+  589  grep -i brasil countries.txt
+  590  mkdir phrases.txt
+  591  ls
+  592  cat > phrases.txt
+  593  cat phrases.txt
+  594  echo "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.
+  595  Não é a linguagem de programação que define o programador, mas sim sua lógica.
+  596  Programador: “É simples, pode ser composto. Se firma no concreto e torna-se, abstrato." >> phrases.txt
+  597  cat phrases.txt
+  598  ls
+  599  rmdir phrases.txt
+  600  ls
+  601  clear
+  602  cat > phrases.txt
+  603  cat phrases,txt
+  604  cat phrases.txt
+  605  grep composto phrases.txt
+  606  grep -c br phrases.txt
+  607  grep -v br phrases.txt
+  608  wc -w phrases.txt
+  609  wc -l phrases.txt
+  610  cat > phrases.txt
+  611  cat phrases.txt
+  612  cat > phrases.txt
+  613  cat phrases.txt
+  614  cat >> phrases.txt
+  615  cat phrases.txt
+  616  cat phrases.txt countries.txt > bunch_of_things.txt
+  617  ls
+  618  cat bunch_of_things.txt
+  619  touch empty.tx
+  620  ls
+  621  sort bunch_of_things.txt
+  622  who > names.txt
+  623  who | sort
+  624  ls -l
+  625  ls *txt
+  626  ls *tx?
+  627  man ls
+  628  ls -l
+  629  chmod a+rw bunch_of_things.txt
+  630  ls -l
+  631  chmod 644 bunch_of_things.txt
+  632  ls -l
+  633  ps
+  634  sleep 30 &
+  635  ps
+  636  jobs
+  637  kill %3
+  638  jobs
+  639  sleep 30
+  640  bg
+  641  ps
+  642  jobs
+  643  kill %3
+  644  jobs
+  645  sleep 100 &
+  646  jobs
+  647  sleep 10
+  648  jobs
+  649  fg %4
+  650  jobs
+  651  sleep 10234
+  652  bg
+  653  sleep 345 &
+  654  jobs
+  655  killall unix_tests
+  656  kill %4 | kill %3
+  657  jobs
+  658  kill %4
+  659  kill %3
+  660  jobs
+  661  ps
+  662  kill 4411
+  663  jobs]
+  664  jobs
+  665  kill %1
+  666  jobs
+  667  ps
+  668  jobs
+  669  kill %2
+  670  jobs
+  671  ps
+  672  jobs
+  673  kill 4831
+  674  ps
+  675  jobs
+  676  kill -9 4831
+  677  jobs
+  678  df .
+  679  /
+  680  cd ..
+  681  ls
+  682  du -s *
+  683  ls
+  684  home
+  685  cd home
+  686  ls
+  687  cd conrado
+  688  ls
+  689  du -s *
+  690  cd unix_tests
+  691  du -s *
+  692  curl -o largefile "https://file.io/vdlPSO"
+  693  du -s *
+  694  ls -l
+  695  gzip largefile
+  696  du -s *
+  697  zcat largefile.gz
+  698  gunzip largefile.gz
+  699  du -s *
+  700  cat >> largefile
+  701  cat largefile
+  702  file *
+  703  diff bunch_of_things.txt countries.txt
+  704  find . -name "*.txt" -print
+  705  cd home
+  706  cd ..
+  707  ls
+  708  cd ..
+  709  ls
+  710  cd conrado
+  711  ls
+  712  cd unix_tests
+  713  ls
+  714  rm names.txt
+  715  ls
+  716  cd ..
+  717  ls
+  718  find . -name "*.txt" -print
+  719  cd ..
+  720  find . -name "*.txt" -print
+  721  grep -c .txt home
+  722  grep -c .txt
+  723  clear
+  724  man find
+  725  find . -size +5M -ls
+  726  clear
+  727  echo $OSTYPE
+  728  echo $HOME
+  729  printenv | less
+  730  echo $history
+  731  echo %USER
+  732  echo $USER
+  733  echo $HOST
+  734  echo $ARCH
+  735  echo $cwd
+  736  cd conrado
+  737  printenv
+  738  printenv HOME
+  739  printenv USER
+  740  printenv HOST
+  741  printenv ARCH
+  742  printenv DISPLAY
+  743  printenv $OSTYPE
+  744  echo $ HOST
+  745  echo $host
+  746  echo $USER
+  747  echo $DISPLAY
+  748  echo $PRINTER
+  749  echo $PATH
+  750  echo $history
+  751  set | less
+  752  .login
+  753  .cshrc
+  754  set history = 200
+  755  echo $history
+  756  echo $HISTORY
+  757  nedit ~/.cshrc
+  758  sudo apt install nedit
+  759  nedit ~/.cshrc
+  760  source .cshrc
+  761  % echo $history
+  762  % set path = ($path ~/units174/bin)
+  763  pwd
+  764  ls
+  765  cd unixstuff
+  766  ls
+  767  cd units-1.74
+  768  ls
+  769  ls -l
+  770  cd ..
+  771  cd downloads
+  772  cd download
+  773  ls
+  774  cd units-1.74
+  775  ls
+  776  pwd
+  777  % set path = ($path ~/home/conrado/unixstuff/download/units=1.74/units174/bin)
+  778  units174
+  779  cd units174
+  780  ls
+  781  cd Makefile
+  782  cat Makefile
+  783  % cd
+  784  % units
+  785  set path = ($path ~/units174/bin)
+  786  exit
+  787  cd ..
+  788  ls
+  789  exit
+  790  suno exit
+  791  sudo apt install exit
+  792  exit
+  793  bg
+  794  kill %3
+  795  ps
+  796  kill 15324
+  797  kill 15522
+  798  kill 16544
+  799  ps
+  800  jobs
+  801  kill %2
+  802  kill %1
+  803  jobs
+  804  kill %1
+  805  jobs
+  806  exit
+  807  history | tail -n 1
+  808  history | tail -n 705 > answers.txt
